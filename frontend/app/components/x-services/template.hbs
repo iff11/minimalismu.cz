@@ -3,34 +3,34 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Services</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 class="section-heading">O co jde?</h2>
+        <h3 class="section-subheading text-muted">Prodejem věcí které už nepotřebujeme chceme přispět na dobrou věc.</h3>
       </div>
     </div>
     <div class="row text-center">
       <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">E-Commerce</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        {{#fa-stack size="4x"}}
+          {{fa-icon "fa-circle" class="text-primary" stack=2}}
+          {{fa-icon "fa-hand-pointer-o" inverse=true stack=1}}
+        {{/fa-stack}}
+        <h4 class="service-heading">Vyber věc</h4>
+        <p class="text-muted">Najdi něco, co už Ti nedělá radost, ale mohlo by se hodit někomu jinému.</p>
       </div>
       <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">Responsive Design</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        {{#fa-stack size="4x"}}
+          {{fa-icon "fa-circle" class="text-primary" stack=2}}
+          {{fa-icon "fa-money" inverse=true stack=1}}
+        {{/fa-stack}}
+        <h4 class="service-heading">Prodej věc</h4>
+        <p class="text-muted">Nabídni věc k prodeji za <strong>30Kč</strong>. Nejjednodušší postup je vystavením na facebooku.</p>
       </div>
       <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x text-primary"></i>
-          <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">Web Security</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        {{#fa-stack size="4x"}}
+          {{fa-icon "fa-circle" class="text-primary" stack=2}}
+          {{fa-icon "fa-gift" inverse=true stack=1}}
+        {{/fa-stack}}
+        <h4 class="service-heading">Daruj zisk</h4>
+        <p class="text-muted">Získaných 30Kč poukaž na transparentní účet (odkaz) s hashtagem #30dníMinimalismu ve zprávě pro příjemce.</p>
       </div>
     </div>
   </div>
