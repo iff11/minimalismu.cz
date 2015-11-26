@@ -4,7 +4,7 @@
 
 Clone this repository and run following commands from the root directory:
 
-```
+```sh
 # Install RoR gems
 bundle install
 # Go to EmberJS sources directory
@@ -19,7 +19,7 @@ cd ..
 
 ## Running
 
-```
+```sh
 rails s
 ```
 
