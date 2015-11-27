@@ -5,4 +5,11 @@ export default function () {
     this.use('toLeft'),
     this.reverse('toRight')
   );
+
+  this.transition(
+    this.fromRoute('home'),
+    this.toRoute('item'),
+    this.use('toLeft'),
+    this.reverse('toRight')
+  );
 }
