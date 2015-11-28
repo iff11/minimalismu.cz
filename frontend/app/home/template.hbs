@@ -1,6 +1,140 @@
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">30 dní Minimalismu</div>
+      <div class="intro-heading">Ukliď si a <br />přispěj na dobrou věc ...</div>
+      <a href="#services" class="page-scroll btn btn-primary btn-lg">
+        Chci vědět víc
+        {{fa-icon 'fa-angle-double-down'}}
+      </a>
+    </div>
+  </div>
+</header>
 
-{{x-header}}
-{{x-services}}
-{{x-about}}
-{{!x-team}}
-{{!x-clients}}
+<!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">O co jde?</h2>
+        <h3 class="section-subheading text-muted">Prodejem věcí které už nepotřebujeme chceme přispět na dobrou věc.</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        {{#fa-stack size="4x"}}
+          {{fa-icon "fa-circle" class="text-primary" stack=2}}
+          {{fa-icon "fa-hand-pointer-o" inverse=true stack=1}}
+        {{/fa-stack}}
+        <h4 class="service-heading">Vyber věc</h4>
+        <p class="text-muted">Najdi něco, co už Ti nedělá radost, ale mohlo by se hodit někomu jinému.</p>
+      </div>
+      <div class="col-md-4">
+        {{#fa-stack size="4x"}}
+          {{fa-icon "fa-circle" class="text-primary" stack=2}}
+          {{fa-icon "fa-money" inverse=true stack=1}}
+        {{/fa-stack}}
+        <h4 class="service-heading">Prodej věc</h4>
+        <p class="text-muted">Nabídni věc k prodeji za <strong>30Kč</strong>. Například vystavením na facebooku.</p>
+      </div>
+      <div class="col-md-4">
+        {{#fa-stack size="4x"}}
+          {{fa-icon "fa-circle" class="text-primary" stack=2}}
+          {{fa-icon "fa-gift" inverse=true stack=1}}
+        {{/fa-stack}}
+        <h4 class="service-heading">Daruj zisk</h4>
+        <p class="text-muted">Získaných 30Kč poukaž na dobročinný účel (odkaz).</p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <a href="#about" class="page-scroll btn btn-primary btn-lg">
+        Chci vědět víc
+        {{fa-icon 'fa-angle-double-down'}}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Jak na to</h2>
+        <h3 class="section-subheading text-muted">Přehledný návod na to, jak snadno přispět na dobrou věc.</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="img/about/gift.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Najdi věc</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Věc by měla mít hodnotu alespoň <strong>30Kč</strong>. Přečtená kniha. Funkční, ale malé oblečení. Nikdy nepoužitý toustovač... Použijte fantazii. Co mám, nepoužívám a někdo by to chtěl? Vždy se <a href="https://www.facebook.com/hashtag/30dn%C3%ADminimalismu?fref=ts" target="_blank">něco najde</a>.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="img/about/price_tag.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Nabídni věc k prodeji</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Nabídni věc k prodeji na svém facebookovém profilu. Přilož fotku a popisek. Cenu stanov na <strong>30 Kč</strong>. Do textu nezapomeň dát hashtag <a href="https://www.facebook.com/hashtag/30dn%C3%ADminimalismu?fref=ts" target="_blank">#30dníMinimalismu</a>.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="img/about/cart.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Někdo si věc koupí</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Velmi pravděpodobně to bude nějaký známý. Domluvte se na předání věcí a peněz.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="img/about/charity.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Prodávající dá vydělané peníze na dobrou věc</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Peníze sbíráme pomocí <a href="https://www.fio.cz/ib2/transparent?a=2000455143">transparentního účtu</a>. Pro online platbu můžete využít jednu z <a href="">připravených forem online platby</a>, nebo použít standardní bankovní převod. Každopádně nezapoměňte do zprávy pro příjemce uvést hashtag #30dníMinimalismu, abysme mohli dobře sledovat kolik jsme už touto akcí vybrali.</p>
+              </div>
+            </div>
+          </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row text-center">
+        {{#link-to 'item' class='page-scroll btn btn-primary btn-lg'}}
+          Chci se zapojit
+          {{fa-icon 'fa-angle-double-right'}}
+        {{/link-to}}
+      </div>
+    </div>
+  </section>
