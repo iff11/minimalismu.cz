@@ -15,7 +15,7 @@ export default function () {
 
   this.transition(
     this.fromRoute('item'),
-    this.toRoute('share'),
+    this.toRoute('sell'),
     this.use('toLeft'),
     this.reverse('toRight')
   );
