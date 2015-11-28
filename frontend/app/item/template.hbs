@@ -11,7 +11,7 @@
       {{#each model as |item|}}
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal">
-            <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+            <img src="{{item.image}}" class="img-responsive" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>{{item.title}}</h4>
@@ -19,6 +19,20 @@
           </div>
         </div>
       {{/each}}
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="text-center">
+          Nyní máme vybranou věc, kterou chceme poslat dál. U které si myslíme, že by mohla někomu udělat radost, nebo dál dobře sloužit. Nyní je třeba onu věc nabídnout ostatním.
+
+          <hr />
+          
+          {{#link-to 'share' class='btn btn-primary'}}
+            Prodej věc
+            {{fa-icon 'fa-angle-double-right'}}
+          {{/link-to}}
+        </p>
+      </div>
     </div>
   </div>
 </section>
