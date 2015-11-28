@@ -12,4 +12,11 @@ export default function () {
     this.use('toLeft'),
     this.reverse('toRight')
   );
+
+  this.transition(
+    this.fromRoute('item'),
+    this.toRoute('share'),
+    this.use('toLeft'),
+    this.reverse('toRight')
+  );
 }
