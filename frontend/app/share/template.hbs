@@ -4,24 +4,22 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">Prodej věc</h2>
-        <h3 class="section-subheading text-muted">Existují alespoň tři jednoduché možnosti jak nabídnout věc k prodeji mezi svými kamarády.</h3>
+        <h3 class="section-subheading text-muted">Existují alespoň tři jednoduché možnosti jak nabídnout věc k prodeji mezi svými kamarády. Vyberte si tu nejvhodnější:</h3>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-4">
         <div class="team-member">
           <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-          <h4>Facebook / Twitter</h4>
-          <p class="text-muted">Jednoduché oslovení blízkého okolí. Tlačítko níže vytvoří příspěvěk na sociální síť, do kterého stačí jen doplnit text a obrázek.</p>
+          <h4>Facebook</h4>
+          <p class="text-muted">
+            Jednoduché oslovení blízkého okolí. Tlačítko níže vytvoří příspěvěk na facebooku, do kterého stačí jen doplnit text a obrázek.<br />
+            Předání věci od prodávajícího ke kupujícímu si každý musí řešit sám, individuálně podle situace.
+          </p>
           <ul class="list-inline social-buttons">
             <li>
               <a href="#">
                 {{fa-icon 'fa-facebook'}}
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                {{fa-icon 'fa-twitter'}}
               </a>
             </li>
           </ul>
@@ -31,7 +29,11 @@
         <div class="team-member">
           <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
           <h4>Offline kavárna</h4>
-          <p class="text-muted">Spolupracujeme s <a href="http://www.perfect-world.cz">kavárnou Perfect World</a>, kde můžete věc nechat a ostatní návštěvníci kavárny si jí budou moci koupit.</p>
+          <p class="text-muted">
+            Spolupracujeme s <a href="http://www.perfect-world.cz">kavárnou Perfect World</a>, kde můžete věc nechat a ostatní návštěvníci kavárny si jí budou moci koupit.<br />
+            Věc uložte do krabice od bot a stručně popište co je vevnitř (například: "Pánská šála"). Krabici nijak nebalte, ani nezavazujte. Je třeba, aby se kdokoli mohl podívat co v ní je.<br />
+            Krabici poté odevzdejte v kavárně a tím váš úkol skončil. Kdokoli si její obsah bude moci za <strong>30 Kč</strong> koupit.
+          </p>
           <ul class="list-inline social-buttons">
             <li>
               <a href="#">
@@ -49,10 +51,12 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 text-center">
-        <p class="large text-muted">Cena věci je fixně stanovena na <strong>30 Kč</strong> (proč? - odkaz). Předání věci si každý musí zařídit podle své situace. Pokud věc odevzdáte na sběrném místě v Perfect Worldu, nemusíte se o další fázi starat.</p>
-      </div>
+
+    <div class="row text-center">
+      {{#link-to 'give' class='page-scroll btn btn-primary btn-lg'}}
+        Chci darovat výtěžek
+        {{fa-icon 'fa-angle-double-right'}}
+      {{/link-to}}
     </div>
   </div>
 </section>

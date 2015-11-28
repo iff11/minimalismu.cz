@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('contact');
   this.route('item');
   this.route('share');
+  this.route('give');
 });
 
 export default Router;
