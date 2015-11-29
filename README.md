@@ -1,12 +1,14 @@
 # minimalismu.cz
 
-# Clone source
+## Local development environment
+
+### Clone source
 
 ```sh
 git clone [your-repo-URL]
 ```
 
-## Installation
+### Installation
 
 Clone this repository and run following commands from the root directory:
 
@@ -29,10 +31,30 @@ bower install
 cd ..
 ```
 
-## Running
+### Running
 
 ```sh
 rails s
 ```
 
 Then go to: [http://localhost:3000/](http://localhost:3000/)
+
+## Docker development environment
+
+### Clone source
+
+```sh
+git clone [your-repo-URL]
+```
+
+### Run docker build
+
+```sh
+cd minimalismu.cz
+docker build -t my-rails-app .
+docker run --name some-rails-app -p 8080:3000 -d my-rails-app
+# Get IP of default machine, this will give you $IP
+docker-machine ip default
+```
+
+Then go to: http://$IP:8080
